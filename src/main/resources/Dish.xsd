@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="http://www.epamrd.org/dish"
+		xmlns:tns="http://www.epamrd.org/dish"
+		elementFormDefault="qualified">
+
+	<complexType name="DishType">
+		<sequence>
+			<element name="category" type="string" minOccurs="1" />
+			<element name="photo" type="string" minOccurs="0" />
+			<element name="name" type="string" minOccurs="0" />
+			<element name="description" type="string" minOccurs="0" />
+			<element name="portion" type="string" minOccurs="0" />
+			<element name="price" type="string" minOccurs="0" />
+		</sequence>
+		<attribute name="id" type="int" use="required"/>
+	</complexType>
+</schema>

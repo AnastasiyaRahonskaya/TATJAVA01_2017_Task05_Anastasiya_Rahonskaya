@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.epamrd.org/Cafe"
+        xmlns:tns="http://www.epamrd.org/Cafe"
+        xmlns:d="http://www.epamrd.org/dish"
+        elementFormDefault="qualified">
+    <import schemaLocation="Dish.xsd" namespace="http://www.epamrd.org/dish"/>
+
+    <element name="cafe" type="tns:CafeType"/>
+
+    <complexType name="CafeType">
+        <sequence>
+            <sequence maxOccurs="unbounded">
+                <element name="dish" type="d:DishType"/>
+            </sequence>
+        </sequence>
+    </complexType>
+</schema>

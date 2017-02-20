@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cf:cafe xmlns:cf="http://www.epamrd.org/Cafe"
+         xmlns:d="http://www.epamrd.org/dish"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.epamrd.org/Cafe Cafe.xsd">
+    <cf:dish id="1">
+        <d:category>coldSnacks</d:category>
+        <d:photo>./photos/1.jpg</d:photo>
+        <d:name>Ассорти рыбное</d:name>
+        <d:description>Слабосоленая форель, семга</d:description>
+        <d:portion>100/20/15</d:portion>
+        <d:price></d:price>
+    </cf:dish>
+    <cf:dish id="2">
+        <d:category>coldSnacks</d:category>
+        <d:photo>./photos/2.jpg</d:photo>
+        <d:name>Тарталетки с красной икрой</d:name>
+        <d:description>Тарталетки с красной икрой</d:description>
+        <d:portion>60/50</d:portion>
+        <d:price></d:price>
+    </cf:dish>
+    <cf:dish id="3">
+        <d:category>coldSnacks</d:category>
+        <d:photo>./photos/3.jpg</d:photo>
+        <d:name>Закуска по-русски</d:name>
+        <d:description>Кусочки атлантической сельди с отварным картофелем, луком, лимоном и зеленью</d:description>
+        <d:portion>70/50/2/10</d:portion>
+        <d:price></d:price>
+    </cf:dish>
+    <cf:dish id="4">
+        <d:category>hotSnacks</d:category>
+        <d:photo>./photos/4.jpg</d:photo>
+        <d:name>Лобио с шампиньонами</d:name>
+        <d:description>Фасоль с шампиньонами и грецким орехом</d:description>
+        <d:portion>150/5</d:portion>
+        <d:price>105</d:price>
+    </cf:dish>
+    <cf:dish id="5">
+        <d:category>hotSnacks</d:category>
+        <d:photo>./photos/5.jpg</d:photo>
+        <d:name>Жульен</d:name>
+        <d:description>1. с курицей 2. с грибами</d:description>
+        <d:portion>120/1</d:portion>
+        <d:price>1. 145 2. 155</d:price>
+    </cf:dish>
+    <cf:dish id="6">
+        <d:category>hotSnacks</d:category>
+        <d:photo>./photos/6.jpg</d:photo>
+        <d:name>Ахматар мясной</d:name>
+        <d:description>Колбаса, ветчина, буженина, сыр, запеченные на мангале в лаваше</d:description>
+        <d:portion>1 шт.</d:portion>
+        <d:price>165</d:price>
+    </cf:dish>
+    <cf:dish id="7">
+        <d:category>breakfast</d:category>
+        <d:photo>./photos/7.jpg</d:photo>
+        <d:name>Глазунья</d:name>
+        <d:description>2 яйца (на выбор: ветчина, сыр, помидоры)</d:description>
+        <d:portion>150</d:portion>
+        <d:price></d:price>
+    </cf:dish>
+    <cf:dish id="8">
+        <d:category>breakfast</d:category>
+        <d:photo>./photos/8.jpg</d:photo>
+        <d:name>Омлет</d:name>
+        <d:description></d:description>
+        <d:portion>100</d:portion>
+        <d:price></d:price>
+    </cf:dish>
+    <cf:dish id="9">
+        <d:category>breakfast</d:category>
+        <d:photo>./photos/9.jpg</d:photo>
+        <d:name>Блинчики с мясом</d:name>
+        <d:description>Жареные блинчики с мясом</d:description>
+        <d:portion>150</d:portion>
+        <d:price></d:price>
+    </cf:dish>
+</cf:cafe>
